@@ -1,0 +1,7 @@
+@charset "utf-8";
+// this file allows you to import scss files in a chosen order to avoid errors of type :
+// chunk styles [mini-css-extract-plugin]
+// Conflicting order between
+// -------------------------------------------------------------------------------------
+@import "reset";
+@import "theme";
